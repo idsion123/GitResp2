@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a880cc07-0472-4184-bc09-82ce72d2d08d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="guliedu@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="guliedu@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="guliedu@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="guliedu: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="24Q9VYiObprKeTK3cRRECgykt27" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../iStudy" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu\templates\users" />
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu\templates\teachers" />
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu\templates\courses" />
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu" />
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu\templates\users" />
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu\templates\orgs" />
+      <recent name="C:\Users\19042\Desktop\Django\在线课堂实战\GuLiEdu\apps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.GuLiEdu">
+    <configuration name="org-detail-base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GuLiEdu/templates/orgs/org-detail-base.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="GuLiEdu" type="Python.DjangoServer" factoryName="Django server">
+      <module name="GuLiEdu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="GuLiEdu.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.org-detail-base.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a880cc07-0472-4184-bc09-82ce72d2d08d" name="Default Changelist" comment="" />
+      <created>1643551967961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643551967961</updated>
+      <workItem from="1643551969182" duration="3009000" />
+      <workItem from="1643640941066" duration="269000" />
+      <workItem from="1643641229454" duration="185000" />
+      <workItem from="1643642870251" duration="243000" />
+      <workItem from="1643883427007" duration="675000" />
+      <workItem from="1643884121955" duration="344000" />
+      <workItem from="1643884664428" duration="1354000" />
+      <workItem from="1643935762315" duration="12583000" />
+      <workItem from="1644025274498" duration="11852000" />
+      <workItem from="1644046168759" duration="3159000" />
+      <workItem from="1644115102448" duration="16641000" />
+      <workItem from="1644200347841" duration="9577000" />
+      <workItem from="1644495697658" duration="2242000" />
+      <workItem from="1644548818231" duration="6358000" />
+      <workItem from="1644629175011" duration="14873000" />
+      <workItem from="1644710224407" duration="23039000" />
+      <workItem from="1644989425765" duration="1671000" />
+      <workItem from="1645097111517" duration="3570000" />
+      <workItem from="1645147628799" duration="31494000" />
+      <workItem from="1645232138577" duration="18308000" />
+      <workItem from="1645316125445" duration="15439000" />
+      <workItem from="1645403355363" duration="23260000" />
+      <workItem from="1645497158501" duration="27778000" />
+      <workItem from="1645578119879" duration="24329000" />
+      <workItem from="1645664355247" duration="15924000" />
+      <workItem from="1645747391216" duration="20449000" />
+      <workItem from="1645835340135" duration="30789000" />
+      <workItem from="1645922846371" duration="22267000" />
+      <workItem from="1646044003353" duration="4137000" />
+      <workItem from="1646128004152" duration="455000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644989872447">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="233" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.683@0.0.1280.683" timestamp="1644989872447" />
+    <state x="395" y="187" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1646128401328">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="395" y="187" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.689@0.0.1280.689" timestamp="1646128401328" />
+    <state x="446" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645544559060">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="446" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.683@0.0.1280.683" timestamp="1645544559060" />
+    <state x="688" y="128" key="FileChooserDialogImpl" timestamp="1645961074394">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="688" y="128" key="FileChooserDialogImpl/0.0.1280.683@0.0.1280.683" timestamp="1645961074394" />
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom" timestamp="1645978624583">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom/0.0.1280.683@0.0.1280.683" timestamp="1645978624583" />
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1645282934058" />
+    <state width="1237" height="146" key="GridCell.Tab.0.center" timestamp="1645978624583">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="1237" height="146" key="GridCell.Tab.0.center/0.0.1280.683@0.0.1280.683" timestamp="1645978624583" />
+    <state width="1237" height="141" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1645282934058" />
+    <state width="1237" height="146" key="GridCell.Tab.0.left" timestamp="1645978624583">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="1237" height="146" key="GridCell.Tab.0.left/0.0.1280.683@0.0.1280.683" timestamp="1645978624583" />
+    <state width="1237" height="141" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1645282934058" />
+    <state width="1237" height="146" key="GridCell.Tab.0.right" timestamp="1645978624583">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="1237" height="146" key="GridCell.Tab.0.right/0.0.1280.683@0.0.1280.683" timestamp="1645978624583" />
+    <state width="1237" height="141" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1645282934058" />
+    <state width="777" height="314" key="GridCell.Tab.1.bottom" timestamp="1645454011955">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="777" height="314" key="GridCell.Tab.1.bottom/0.0.1280.683@0.0.1280.683" timestamp="1645454011955" />
+    <state width="777" height="314" key="GridCell.Tab.1.center" timestamp="1645454011955">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="777" height="314" key="GridCell.Tab.1.center/0.0.1280.683@0.0.1280.683" timestamp="1645454011955" />
+    <state width="777" height="314" key="GridCell.Tab.1.left" timestamp="1645454011955">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="777" height="314" key="GridCell.Tab.1.left/0.0.1280.683@0.0.1280.683" timestamp="1645454011955" />
+    <state width="777" height="314" key="GridCell.Tab.1.right" timestamp="1645454011955">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state width="777" height="314" key="GridCell.Tab.1.right/0.0.1280.683@0.0.1280.683" timestamp="1645454011955" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1646128337444">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.683@0.0.1280.683" timestamp="1645184065359" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1646128337444" />
+    <state x="613" y="228" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1645107574156">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="613" y="228" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1280.683@0.0.1280.683" timestamp="1645107574156" />
+    <state x="337" y="171" key="com.intellij.ide.util.TipDialog" timestamp="1646128006210">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="337" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.683@0.0.1280.683" timestamp="1646044006377" />
+    <state x="337" y="171" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1646128006210" />
+    <state x="616" y="4" width="672" height="678" key="search.everywhere.popup" timestamp="1645797375901">
+      <screen x="0" y="0" width="1280" height="683" />
+    </state>
+    <state x="616" y="4" width="672" height="678" key="search.everywhere.popup/0.0.1280.683@0.0.1280.683" timestamp="1645797375901" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GuLiEdu/settings.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/orgs/org-detail-base.html</url>
+          <line>62</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/courses/course-list.html</url>
+          <line>53</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/courses/course-detail.html</url>
+          <line>136</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/users/usercenter-base.html</url>
+          <line>16</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

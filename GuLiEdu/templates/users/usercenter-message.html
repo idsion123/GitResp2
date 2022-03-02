@@ -1,0 +1,89 @@
+{% extends 'users/usercenter-base.html' %}
+{% load static %}
+{% block title %}我的消息{% endblock %}
+{% block branch %}我的消息{% endblock %}
+{% block right %}
+    <div class="right" >
+		<div class="personal_des Releasecont">
+			<div class="head">
+				<h1>我的消息</h1>
+			</div>
+
+		</div>
+		<div class="personal_des permessage">
+			<div class="head">
+				<ul class="tab_header messagehead">
+					<li class="active"><a href="{% url 'users:user_mymsg' %}">个人消息</a> </li>
+				</ul>
+
+
+			</div>
+			<div class="messagelist">
+                  {% for msg in pages %}
+                    <div class="messages" msg_id="{{ msg.id }}" >
+                        <div class="fr" >
+                            <div class="top"><span class="fl time">{{msg.add_time}}</span><span class="fr btn foldbtn"></span></div>
+                            <p {% if not msg.message_status %} style="color: hotpink" {% endif %} class="">
+                                {{ msg.message_content }}
+                            </p>
+                        </div>
+                    </div>
+                  {% endfor %}
+
+
+			</div>
+
+
+			<div class="pageturn pagerright">
+                <ul class="pagelist">
+                            {% if pages.has_previous %}
+                                <li class ="long"><a href="?pagenum={{ pages.previous_page_number }}">上一页</a> </li>
+                            {% endif %}
+                            {% for number in pages.paginator.page_range %}
+                               {% if number == pages.number %}
+                                 <li class ="active"> <a href="?pagenum={{ number }}">{{ number }}</a></li>
+                                {% else %}
+                                   <li><a href="?pagenum={{ number }}">{{ number }}</a></li>
+                                {% endif %}
+                             {% endfor %}
+                              {% if pages.has_next %}
+                                  <li class ="long"><a href="?pagenum={{ pages.next_page_number }}">下一页</a></li>
+                              {% endif %}
+                        </ul>
+            </div>
+		</div>
+
+	</div>
+{% endblock %}
+{% block user %}
+{% endblock %}
+{% block myjs1 %}
+    <script>
+     $('.messages').click(function () {
+         var delete_id=$(this).attr('msg_id');
+         $.ajax({
+             type:'POST',
+             url:'{% url 'operations:msg_delete' %}',
+             data:{
+                 delete_id:delete_id,
+                 csrfmiddlewaretoken:'{{ csrf_token }}',
+
+             },
+             success:function (callback) {
+                 if(callback.status == 'ok'){
+                     alert(callback.msg);
+                     window.location.reload();
+                 }
+                 else {
+                     alert(callback.msg);
+                 }
+
+
+             }
+
+         })
+     })
+    </script>
+{% endblock %}
+
+
